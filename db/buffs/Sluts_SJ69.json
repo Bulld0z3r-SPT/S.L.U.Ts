@@ -1,0 +1,66 @@
+[
+    {
+        "BuffType": "MaxStamina",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 45,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "StaminaRate",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 3,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "HandsTremor",
+        "Chance": 1,
+        "Delay": 660,
+        "Duration": 60,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "QuantumTunnelling",
+        "Chance": 0.85,
+        "Delay": 5,
+        "Duration": 30,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "BodyTemperature",
+        "Chance": 1,
+        "Delay": 6,
+        "Duration": 540,
+        "Value": -5,
+        "AbsoluteValue": true,
+        "SkillName": ""
+      },
+      {
+        "BuffType": "SkillRate",
+        "Chance": 1,
+        "Delay": 300,
+        "Duration": 300,
+        "Value": -20,
+        "AbsoluteValue": true,
+        "SkillName": "Metabolism"
+      },
+      {
+        "BuffType": "HealthRate",
+        "Chance": 0.95,
+        "Delay": 630,
+        "Duration": 60,
+        "Value": -0.2,
+        "AbsoluteValue": true,
+        "SkillName": ""
+      }
+
+  ]
