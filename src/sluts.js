@@ -145,7 +145,7 @@ class Sluts {
             itemFAPStim,
             FAPStimId,
             "assets/content/weapons/usable_items/item_syringe/item_stimulator_adrenaline_loot.bundle",
-            "assets/content/weapons/usable_items/item_syringe/item_stimulator_propital_container.bundle",
+            "assets/content/weapons/usable_items/item_syringe/item_stimulator_adrenaline_container.bundle",
             config.StimUseCount,
             "Sluts_FAP");
 

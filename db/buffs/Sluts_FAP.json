@@ -22,7 +22,7 @@
         "Chance": 1,
         "Delay": 1,
         "Duration": 180,
-        "Value": 1,
+        "Value": 25,
         "AbsoluteValue": true,
         "SkillName": "Perception"
       },
