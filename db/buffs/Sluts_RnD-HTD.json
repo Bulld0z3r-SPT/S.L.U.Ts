@@ -1,0 +1,11 @@
+[
+    {
+        "BuffType": "HandsTremor",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    }
+]

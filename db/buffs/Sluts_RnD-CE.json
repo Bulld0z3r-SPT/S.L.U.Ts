@@ -1,0 +1,11 @@
+[
+    {
+        "BuffType": "Contusion",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 1,
+        "AbsoluteValue": false,
+        "SkillName": ""
+    }
+]

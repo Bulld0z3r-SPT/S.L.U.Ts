@@ -1,0 +1,56 @@
+[
+    {
+        "BuffType": "Contusion",
+        "Chance": 1,
+        "Delay": 5,
+        "Duration": 10,
+        "Value": 1,
+        "AbsoluteValue": false,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "SkillRate",
+        "Chance": 1,
+        "Delay": 10,
+        "Duration": 900,
+        "Value": 75,
+        "AbsoluteValue": true,
+        "SkillName": "Attention"
+    },
+    {
+        "BuffType": "SkillRate",
+        "Chance": 1,
+        "Delay": 10,
+        "Duration": 900,
+        "Value": 75,
+        "AbsoluteValue": true,
+        "SkillName": "Perception"
+    },
+    {
+        "BuffType": "HydrationRate",
+        "Chance": 1,
+        "Delay": 50,
+        "Duration": 900,
+        "Value": -0.25,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "Contusion",
+        "Chance": 1,
+        "Delay": 900,
+        "Duration": 10,
+        "Value": 1,
+        "AbsoluteValue": false,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "QuantumTunnelling",
+        "Chance": 0.85,
+        "Delay": 905,
+        "Duration": 25,
+        "Value": 1,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    }
+]

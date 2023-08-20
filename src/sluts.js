@@ -16,7 +16,8 @@ class Sluts {
         logger.log(`[${this.pkg.name}] Loaded v${this.pkg.version} for AKI v${this.pkg.akiVersion}! Made by ${this.pkg.author}.`, "cyan");
         const trader = db.traders["54cb57776803fa99248b456e"];
 
-
+        // Special Slots ID
+        const SpecialSlots = db.templates.items["627a4e6b255f7527fb05a0f6"];
 
         // #region SuperPropital Stim
         const SuperPropitalStim = require('../db/buffs/Sluts_SuperPropital.json');
@@ -54,6 +55,7 @@ class Sluts {
         Sluts.addHandbookItem(handbook, SuperPropitalStimId, SuperPropitalStimCategory, SuperPropitalStimFleaPrice);
         Sluts.addStimToTrader(trader, SuperPropitalStimId, SuperPropitalStimTraderPrice, 100, 3);
         db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(SuperPropitalStimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, SuperPropitalStimId);
         // #endregion    
 
         // #region SJ69 Stim
@@ -85,6 +87,7 @@ class Sluts {
         Sluts.addHandbookItem(handbook, SJ69StimId, SJ69StimCategory, SJ69StimFleaPrice);
         Sluts.addStimToTrader(trader, SJ69StimId, SJ69StimTraderPrice, 100, 3);
         db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(SJ69StimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, SJ69StimId);
         // #endregion 
         
         // #region GSPOT Stim
@@ -124,6 +127,7 @@ class Sluts {
         Sluts.addHandbookItem(handbook, GSPOTStimId, GSPOTStimCategory, GSPOTStimFleaPrice);
         Sluts.addStimToTrader(trader, GSPOTStimId, GSPOTStimTraderPrice, 100, 3);
         db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(GSPOTStimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, GSPOTStimId);
         // #endregion
         
         // #region F.A.P Stim
@@ -155,6 +159,7 @@ class Sluts {
         Sluts.addHandbookItem(handbook, FAPStimId, FAPStimCategory, FAPStimFleaPrice);
         Sluts.addStimToTrader(trader, FAPStimId, FAPStimTraderPrice, 100, 3);
         db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(FAPStimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, FAPStimId);
         // #endregion
         
 		// #region S.L.I.T Stim
@@ -192,8 +197,104 @@ class Sluts {
         Sluts.addHandbookItem(handbook, slitStimId, slitStimCategory, slitStimFleaPrice);
         Sluts.addStimToTrader(trader, slitStimId, slitStimTraderPrice, 100, 4);
         db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(slitStimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, slitStimId);
         // #endregion
 
+        // #region RnD-HTD Tabs.
+        const RnDHTDStim = require('../db/buffs/Sluts_RnD-HTD.json');
+
+        const RnDHTDStimId = "Sluts_RnD-HTD",
+            RnDHTDStimCategory = "5b47574386f77428ca22b337",
+            RnDHTDStimFleaPrice = 19999,
+            RnDHTDStimName = "S.L.U.Ts-RnD-HTD Tablets",
+            RnDHTDStimShortName = "RnD-H.T.D",
+            RnDHTDStimDescription = "Hands Tremor Disorder tablets. NOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company. ",
+            RnDHTDStimTraderPrice = 19999;
+
+        db.globals.config.Health.Effects.Stimulator.Buffs["Sluts_RnD-HTD"] = RnDHTDStim;
+        
+        const itemRnDHTDStim = jsonUtil.clone(db.templates.items["544fb37f4bdc2dee738b4567"]);
+
+        Sluts.addStimData(
+            itemRnDHTDStim,
+            RnDHTDStimId,
+            "assets/content/weapons/usable_items/item_blister/item_analgin_loot.bundle",
+            "assets/content/weapons/usable_items/item_blister/item_analgin_container.bundle",
+            config.TabsUseCount,
+            "Sluts_RnD-HTD");
+
+        db.templates.items[RnDHTDStimId] = itemRnDHTDStim;
+
+        Sluts.addLocales(locales, RnDHTDStimId, RnDHTDStimName, RnDHTDStimShortName, RnDHTDStimDescription);
+        Sluts.addHandbookItem(handbook, RnDHTDStimId, RnDHTDStimCategory, RnDHTDStimFleaPrice);
+        Sluts.addStimToTrader(trader, RnDHTDStimId, RnDHTDStimTraderPrice, 100, 3);
+        db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(RnDHTDStimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, RnDHTDStimId);
+        // #endregion
+        
+        // #region RnD-CE Tabs.
+        const RnDCEStim = require('../db/buffs/Sluts_RnD-CE.json');
+
+        const RnDCEStimId = "Sluts_RnD-CE",
+            RnDCEStimCategory = "5b47574386f77428ca22b337",
+            RnDCEStimFleaPrice = 19999,
+            RnDCEStimName = "S.L.U.Ts-RnD-CE Tablets",
+            RnDCEStimShortName = "RnD-CE",
+            RnDCEStimDescription = "Contusion Effect tablets. NOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company. ",
+            RnDCEStimTraderPrice = 19999;
+
+        db.globals.config.Health.Effects.Stimulator.Buffs["Sluts_RnD-CE"] = RnDCEStim;
+        
+        const itemRnDCEStim = jsonUtil.clone(db.templates.items["544fb37f4bdc2dee738b4567"]);
+
+        Sluts.addStimData(
+            itemRnDCEStim,
+            RnDCEStimId,
+            "assets/content/weapons/usable_items/item_blister/item_analgin_loot.bundle",
+            "assets/content/weapons/usable_items/item_blister/item_analgin_container.bundle",
+            config.TabsUseCount,
+            "Sluts_RnD-CE");
+
+        db.templates.items[RnDCEStimId] = itemRnDCEStim;
+
+        Sluts.addLocales(locales, RnDCEStimId, RnDCEStimName, RnDCEStimShortName, RnDCEStimDescription);
+        Sluts.addHandbookItem(handbook, RnDCEStimId, RnDCEStimCategory, RnDCEStimFleaPrice);
+        Sluts.addStimToTrader(trader, RnDCEStimId, RnDCEStimTraderPrice, 100, 3);
+        db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(RnDCEStimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, RnDCEStimId);
+        // #endregion
+
+        // #region SJ420 Stim
+        const SJ420Stim = require('../db/buffs/Sluts_SJ420.json');
+
+        const SJ420StimId = "Sluts_SJ420",
+            SJ420StimCategory = "5b47574386f77428ca22b33a",
+            SJ420StimFleaPrice = 49999,
+            SJ420StimName = "Stimulant Injector S.L.U.Ts-SJ420",
+            SJ420StimShortName = "SJ420",
+            SJ420StimDescription = "SJ420 also known as NERD Stim. This stim inject about a 100 thousand nano robots into your blood. which then rush towards your brain and cling to it. sharing their db of items with it. making you super smart, and able to understand what you see just by the glimpse of it. unfortunately, this effect has limited time and die off as soon the bots loose their battery power. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
+            SJ420StimTraderPrice = 49999;
+
+        db.globals.config.Health.Effects.Stimulator.Buffs["Sluts_SJ420"] = SJ420Stim;
+        
+        const itemSJ420Stim = jsonUtil.clone(db.templates.items["5fca13ca637ee0341a484f46"]);
+
+        Sluts.addStimData(
+            itemSJ420Stim,
+            SJ420StimId,
+            "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs_loot.bundle",
+            "assets/content/weapons/usable_items/item_syringe/item_stimulator_sj9_tglabs_container.bundle",
+            config.StimUseCount,
+            "Sluts_SJ420");
+
+        db.templates.items[SJ420StimId] = itemSJ420Stim;
+
+        Sluts.addLocales(locales, SJ420StimId, SJ420StimName, SJ420StimShortName, SJ420StimDescription);
+        Sluts.addHandbookItem(handbook, SJ420StimId, SJ420StimCategory, SJ420StimFleaPrice);
+        Sluts.addStimToTrader(trader, SJ420StimId, SJ420StimTraderPrice, 100, 3);
+        db.templates.items["619cbf7d23893217ec30b689"]._props.Grids[0]._props.filters[0].Filter.push(SJ420StimId);
+        Sluts.addItemToSpecialSlots(SpecialSlots, SJ420StimId);
+        // #endregion 
     }
 
     // Create a method to add a stim to the trader
@@ -247,6 +348,13 @@ class Sluts {
                 "Price": price
             }
         );
+    }
+
+    // Add Item to Special Slots
+    static addItemToSpecialSlots(specialSlots, item){
+        specialSlots._props.Slots[0]._props.filters[0].Filter.push(item);
+        specialSlots._props.Slots[1]._props.filters[0].Filter.push(item);
+        specialSlots._props.Slots[2]._props.filters[0].Filter.push(item);
     }
 }
 
