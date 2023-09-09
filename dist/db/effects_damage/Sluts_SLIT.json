@@ -1,0 +1,25 @@
+{  
+    "LightBleeding": {
+        "delay": 0,
+        "duration": 0,
+        "fadeOut": 0,
+        "healthPenaltyMin": 0,
+        "healthPenaltyMax": 0
+    },
+    "HeavyBleeding": {
+        "delay": 0,
+        "duration": 0,
+        "fadeOut": 0
+    },
+    "DestroyedPart": {
+        "delay": 0,
+        "duration": 0,
+        "healthPenaltyMin": 50,
+        "healthPenaltyMax": 60
+    },
+    "Fracture": {
+        "delay": 0,
+        "duration": 0,
+        "fadeOut": 0
+    }
+}

@@ -1,0 +1,101 @@
+[
+    {
+        "BuffType": "Antidote",
+        "Chance": 0.25,
+        "Delay": 10,
+        "Duration": 60,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+      },
+      {
+        "BuffType": "RemoveAllBloodLosses",
+        "Chance": 1,
+        "Delay": 0,
+        "Duration": 180,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "HealthRate",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 3,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "SkillRate",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 25,
+        "AbsoluteValue": true,
+        "SkillName": "Metabolism"
+      },
+    {
+        "BuffType": "SkillRate",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 25,
+        "AbsoluteValue": true,
+        "SkillName": "Health"
+    },
+    {
+        "BuffType": "SkillRate",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 600,
+        "Value": 25,
+        "AbsoluteValue": true,
+        "SkillName": "Vitality"
+    },
+    {
+        "BuffType": "HandsTremor",
+        "Chance": 0.95,
+        "Delay": 540,
+        "Duration": 60,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "QuantumTunnelling",
+        "Chance": 0.8,
+        "Delay": 570,
+        "Duration": 30,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "Contusion",
+        "Chance": 0.75,
+        "Delay": 30,
+        "Duration": 15,
+        "Value": 1,
+        "AbsoluteValue": false,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "HydrationRate",
+        "Chance": 1,
+        "Delay": 30,
+        "Duration": 60,
+        "Value": -4.5,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "EnergyRate",
+        "Chance": 1,
+        "Delay": 30,
+        "Duration": 60,
+        "Value": -4.5,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    }
+]

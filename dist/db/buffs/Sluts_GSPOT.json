@@ -1,0 +1,65 @@
+[
+    {
+        "BuffType": "WeightLimit",
+        "Chance": 1,
+        "Delay": 5,
+        "Duration": 840,
+        "Value": 0.85,
+        "AbsoluteValue": false,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "HealthRate",
+        "Chance": 1,
+        "Delay": 210,
+        "Duration": 630,
+        "Value": -0.3,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "StaminaRate",
+        "Chance": 1,
+        "Delay": 1,
+        "Duration": 840,
+        "Value": 2,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "EnergyRate",
+        "Chance": 1,
+        "Delay": 10,
+        "Duration": 230,
+        "Value": 0.2,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "EnergyRate",
+        "Chance": 0.98,
+        "Delay": 240,
+        "Duration": 600,
+        "Value": -0.35,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "HandsTremor",
+        "Chance": 0.92,
+        "Delay": 780,
+        "Duration": 60,
+        "Value": 0,
+        "AbsoluteValue": true,
+        "SkillName": ""
+    },
+    {
+        "BuffType": "Contusion",
+        "Chance": 0.15,
+        "Delay": 840,
+        "Duration": 30,
+        "Value": 1,
+        "AbsoluteValue": false,
+        "SkillName": ""
+    }
+]
