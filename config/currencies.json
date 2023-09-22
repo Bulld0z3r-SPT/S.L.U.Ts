@@ -1,0 +1,13 @@
+{
+    "Dollars": {
+        "Id": "5696686a4bdc2da3298b456a",
+        "UsdRub": 137
+    },
+    "Euros": {
+        "Id": "569668774bdc2da2298b4568",
+        "EurRub": 151
+    },
+    "Roubles": {
+        "Id": "5449016a4bdc2d6f028b456f"
+    }
+}
