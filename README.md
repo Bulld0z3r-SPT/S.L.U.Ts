@@ -39,3 +39,13 @@ The company also provides some of its products to Hospitals and Medical Personna
 <p align="center">
     <img src="content/sluts_all.png" height="180">
 </p>
+
+> [!NOTE]
+> Tested on SPT: 3.5.5, 3.5.6, 3.5.7, 3.6.1, 3.7.1
+
+> [!IMPORTANT]
+> Should work on all SPT versions over 3.5.*
+
+> [!WARNING]
+> Might Work on previous versions but its not a guarantee. and I am not going to make it happen
+> You can try editing the files to fit previous version, althou I would not know why you would want to ;)
