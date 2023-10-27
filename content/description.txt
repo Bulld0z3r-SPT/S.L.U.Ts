@@ -1,0 +1,116 @@
+S.L.U.Ts-RnD-HTD Tablets
+HP Resource: 5
+Use Time: 3sec
+Hydration: -19
+Removes Pain: Dur. 80sec
+Hands Tremor: Dur. 600sec
+
+S.L.U.Ts-RnD-CE Tablets
+HP Resource: 5
+Use Time: 3sec
+Hydration: -19
+Removes Pain: Dur. 80sec
+Contussion: Dur. 600sec (+100%)
+
+S.L.U.Ts-SJ69 Injector
+HP Resource: 3
+Use Time: 2sec
+Max Stamina: Dur. 600sec (+45)
+Stamina Recovery: Dur. 600sec (+3)
+Hands Tremor: Del. 660sec / Dur. 600sec
+Tunnel Effect: Chance 85% / Del. 5sec / Dur. 30sec
+Body Temperature: Del. 6sec / Dur. 540sec (-5 C*)
+Skill "Metabolism": Del. 300sec / Dur. 300sec (-20)
+Health Regeneration: Chance 95% / Del. 630sec / Dur. 60sec (-0.2)
+
+S.L.U.Ts-SJ420 Injector
+HP Resource: 3
+Use Time: 2sec
+Contussion: Del. 5sec / Dur. 10sec (+100%)
+Skill "Attention": Del. 10sec / Dur. 1800sec (+75)
+Skill "Perception": Del. 10sec / Dur. 1800sec (+75)
+Hydration Recovery: Del. 50sec / Dur. 1800sec (-0.2)
+Contussion: Del. 1800sec / Dur. 10sec (+100%)
+Tunnel Effect: Chance 85% / Del. 1805sec / Dur. 25sec (+1)
+
+S.L.U.Ts-F.A.P(S) Injector
+HP Resource: 3
+Use Time: 2sec
+Removes Contussion: Dur. 60sec
+Removes Pain: Dur. 60sec
+Max Stamina: Dur. 160sec (+50)
+Skill "Attention": Del. 10sec / Dur. 160sec (+25)
+Skill "Perception": Dur. 180sec (+25)
+Skill "Endurance": Dur. 180sec (+35)
+Skill "Strenght": Dur. 180sec (+35)
+Skill "Recoil Control": Dur. 180sec (+45)
+Skill "Mag Drills": Dur. 180sec (+25)
+Health Regeneration: Dur. 15sec (+5)
+Hydration Recovery: Del. 50sec / Dur. 30sec (-1.2)
+Energy Recovery: Del. 50sec / Dur. 30sec (-1)
+Contussion: Chance 95% / Del. 180sec / Dur. 20sec (+100%)
+
+S.L.U.Ts-F.A.P(L) Injector
+HP Resource: 3
+Use Time: 2sec
+Removes Contussion: Dur. 60sec
+Removes Pain: Dur. 60sec
+Max Stamina: Dur. 160sec (+50)
+Skill "Attention": Del. 10sec / Dur. 160sec (+35)
+Skill "Perception": Dur. 180sec (+35)
+Skill "Endurance": Dur. 180sec (+45)
+Skill "Strenght": Dur. 180sec (+35)
+Skill "Recoil Control": Dur. 180sec (+45)
+Skill "Mag Drills": Dur. 180sec (+35)
+Health Regeneration: Dur. 15sec (+5.5)
+Hydration Recovery: Del. 50sec / Dur. 30sec (-1.2)
+Energy Recovery: Del. 50sec / Dur. 30sec (-1)
+Contussion: Chance 95% / Del. 180sec / Dur. 20sec (+100%)
+
+S.L.U.Ts-G.S.P.O.T Injector
+HP Resource: 3
+Use Time: 2sec
+Weight Limit: Del. 5sec / Dur. 840sec (+85%)
+Health Regeneration: Del. 210sec / Dur. 630sec (-0.3)
+Stamina Recovery: Dur. 840sec (+2)
+Energy Recovey: Del. 10sec / Dur. 230sec (+0.2)
+Energy Recovery: Chance 98% / Del. 240sec / Dur. 600sec (-0.3)
+Hands Tremor: Chance 92% / Del. 780sec / Dur. 60sec
+Contussion: Chance 15% / Del. 840sec / Dur. 30sec (+100%)
+
+S.L.U.Ts-SuperPropital Injector
+HP Resource: 3
+Use Time: 2sec
+Removes Pain: Dur. 10sec
+Antidote: Chance 25% / Del. 10sec / Dur. 60sec
+Stops and prevents bleeding: Dur. 180sec
+Health Regeneration: Dur. 600sec (+3)
+Skill "Metabolism": Dur. 600sec (+25)
+Skill "Health": Dur. 600sec (+25)
+Skill "Vitality": Dur. 600sec (+25)
+Hands Tremor: Chance 95% / Del. 540sec / Dur. 60sec
+Tunnel Effect: Chance 80% / Del. 570sec / Dur. 30sec
+Contussion: Chance 75% / Del. 30sec / Dur. 15sec (+100%)
+Hydration Recovery: Del. 30sec / Dur. 60sec (-4.5)
+Energy Recovery: Del. 30sec / Dur. 60sec (-4.5)
+
+S.L.U.Ts-RnD-M.I.L-f30 Injector
+HP Resource: 3
+Use Time: 2sec
+Stamin Recovery: Dur. 1800sec (+200)
+Weight Limit: Dur. 1800sec (+50Kg)
+
+S.L.U.Ts-RnD-M.I.L-f45 Injector
+HP Resource: 3
+Use Time: 2sec
+Stamin Recovery: Dur. 2700sec (+200)
+Weight Limit: Dur. 2700sec (+50Kg)
+
+S.L.U.Ts-RnD-DI:CS Injector
+HP Resource: 3
+Use Time: 2sec
+Stops heavy bleedings: Dur. 180sec
+Stops light bleedings: Dur. 180sec
+Damage taken (Except the Head): Dur. 1800sec (-9500%)
+Health Regeneration: Dur. 1800sec (+1)
+
