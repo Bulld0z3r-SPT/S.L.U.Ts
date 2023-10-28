@@ -12,9 +12,17 @@ The company also provides some of its products to Hospitals and Medical Personna
     <img src="content/sluts_all.png" height="146">
 </p>
 
-## Product preview
+# Installation
+- Extract the contents of the archive to your `<SPT FOLDER>\user\mods`
+- full path to mod should look like `<SPT FOLDER>\user\mods\<MOD Name>`
+- e.g. `D:\Games\SPT\user\mods\Bulld0z3r-S.L.U.Ts-1.2.0\package.json`
 
-### S.L.U.Ts-SJ420 Injector
+# Configuration
+You can change mod configuration file, which is available at `<SPT FOLDER>\user\mods\Bulld0z3r-SLUTs-x.x.x\config\config.json` to suit your desired settings.
+
+# Product preview
+
+## S.L.U.Ts-SJ420 Injector
 - HP Resource: 3
 - Use Time: 2sec
 - Contussion: Del. 5sec / Dur. 10sec (+100%)
@@ -27,7 +35,7 @@ The company also provides some of its products to Hospitals and Medical Personna
 **"SJ420 also known as NERD Stim. This stim inject about a 100 thousand nano robots into your blood. which then rush towards your brain and cling to it. sharing their db of items with it. making you super smart, and able to understand what you see just by the glimpse of it. unfortunately, this effect has limited time and die off as soon the bots loose their battery power. some individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies"**
 
 
-### S.L.U.Ts-G.S.P.O.T Injector
+## S.L.U.Ts-G.S.P.O.T Injector
 - HP Resource: 3
 - Use Time: 2sec
 - Weight Limit: Del. 5sec / Dur. 840sec (+85%)
@@ -40,6 +48,8 @@ The company also provides some of its products to Hospitals and Medical Personna
 
 **"Graravity Strenght and Power Oriented Trigger stimulant is a product of experimentation with the legendary M.U.L.E stimulant with an addition of viagra ingredients. commonly used by the military workers to overcome the pain of lifting heavy equipment without an ExoSkeleton. Testimonials say "It's almost like weaing an ExoSkeleton, but much cheaper." some individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies"**
 
+# MOD Information
+
 > [!NOTE]
 > Tested on SPT: 3.5.5, 3.5.6, 3.5.7, 3.6.1, 3.7.1
 
@@ -47,5 +57,5 @@ The company also provides some of its products to Hospitals and Medical Personna
 > Should work on all SPT versions over 3.5.*
 
 > [!WARNING]
-> Might Work on previous versions but its not a guarantee. and I am not going to make it happen
-> You can try editing the files to fit previous version, althou I would not know why you would want to ;)
+> It might work on previous versions, but that's not a guarantee. and I am not going to make it happen.
+> You can try editing the files to fit previous versions, though I do not know why you would want to.
