@@ -114,3 +114,10 @@ Stops light bleedings: Dur. 180sec
 Damage taken (Except the Head): Dur. 1800sec (-9500%)
 Health Regeneration: Dur. 1800sec (+1)
 
+S.L.U.Ts-S.L.I.T Injector
+HP Resource: 3
+Use Time: 2sec
+Stops light bleedings
+Stops heavy bleedings
+Removes Fracture
+Restores Lost Body part
