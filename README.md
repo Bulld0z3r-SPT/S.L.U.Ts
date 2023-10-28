@@ -6,7 +6,7 @@
 
 # S.L.U.Ts
 **S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies** is a Developer, Producer and Distributor of some Special Medical Cocktails mainly for State Military and Private Military Companies under special license.
-The company also provides some of its products to Hospitals and Medical Personnals
+The company also provides some of its products to Hospitals and Medical Personnel's
 
 <p align="center">
     <img src="content/sluts_all.png" height="146">
