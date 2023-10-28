@@ -25,14 +25,14 @@ You can change mod configuration file, which is available at `<SPT FOLDER>\user\
 ## S.L.U.Ts-SJ420 Injector
 - HP Resource: 3
 - Use Time: 2sec
-- Contussion: Del. 5sec / Dur. 10sec (+100%)
+- Contusion: Del. 5sec / Dur. 10sec (+100%)
 - Skill "Attention": Del. 10sec / Dur. 1800sec (+75)
 - Skill "Perception": Del. 10sec / Dur. 1800sec (+75)
 - Hydration Recovery: Del. 50sec / Dur. 1800sec (-0.2)
-- Contussion: Del. 1800sec / Dur. 10sec (+100%)
+- Contusion: Del. 1800sec / Dur. 10sec (+100%)
 - Tunnel Effect: Chance 85% / Del. 1805sec / Dur. 25sec (+1)
 
-**"SJ420 also known as NERD Stim. This stim inject about a 100 thousand nano robots into your blood. which then rush towards your brain and cling to it. sharing their db of items with it. making you super smart, and able to understand what you see just by the glimpse of it. unfortunately, this effect has limited time and die off as soon the bots loose their battery power. some individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies"**
+**"SJ420 also known as NERD Stim. This stim inject about a 100 thousand nano robots into your blood. which then rush towards your brain and cling to it. sharing their database of items with it. making you super smart, and able to understand what you see just by the glimpse of it. unfortunately, this effect has limited time and die off as soon the bots loose their battery power. some individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies"**
 
 
 ## S.L.U.Ts-G.S.P.O.T Injector
@@ -44,7 +44,7 @@ You can change mod configuration file, which is available at `<SPT FOLDER>\user\
 - Energy Recovey: Del. 10sec / Dur. 230sec (+0.2)
 - Energy Recovery: Chance 98% / Del. 240sec / Dur. 600sec (-0.3)
 - Hands Tremor: Chance 92% / Del. 780sec / Dur. 60sec
-- Contussion: Chance 15% / Del. 840sec / Dur. 30sec (+100%)
+- Contusion: Chance 15% / Del. 840sec / Dur. 30sec (+100%)
 
 **"Graravity Strenght and Power Oriented Trigger stimulant is a product of experimentation with the legendary M.U.L.E stimulant with an addition of viagra ingredients. commonly used by the military workers to overcome the pain of lifting heavy equipment without an ExoSkeleton. Testimonials say "It's almost like weaing an ExoSkeleton, but much cheaper." some individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies"**
 
