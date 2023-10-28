@@ -8,6 +8,10 @@
 **S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies** is a Developer, Producer and Distributor of some Special Medical Cocktails mainly for State Military and Private Military Companies under special license.
 The company also provides some of its products to Hospitals and Medical Personnals
 
+<p align="center">
+    <img src="content/sluts_all.png" height="146">
+</p>
+
 ## Product preview
 
 ### S.L.U.Ts-SJ420 Injector
@@ -35,10 +39,6 @@ The company also provides some of its products to Hospitals and Medical Personna
 - Contussion: Chance 15% / Del. 840sec / Dur. 30sec (+100%)
 
 **"Graravity Strenght and Power Oriented Trigger stimulant is a product of experimentation with the legendary M.U.L.E stimulant with an addition of viagra ingredients. commonly used by the military workers to overcome the pain of lifting heavy equipment without an ExoSkeleton. Testimonials say "It's almost like weaing an ExoSkeleton, but much cheaper." some individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. S.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies"**
-
-<p align="center">
-    <img src="content/sluts_all.png" height="146">
-</p>
 
 > [!NOTE]
 > Tested on SPT: 3.5.5, 3.5.6, 3.5.7, 3.6.1, 3.7.1
