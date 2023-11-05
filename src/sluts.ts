@@ -83,7 +83,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, SuperPropitalStimId, SuperPropitalStimTraderPrice, config.TraderSellStock, config.SuperPropitalStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, SuperPropitalStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, SuperPropitalStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SuperPropitalStimTraderLoyalty} Name: ${SuperPropitalStimName} Price: ${config.SuperPropitalStimPrice} ₽. Desc: "${SuperPropitalStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SuperPropitalStimTraderLoyalty} Name: ${SuperPropitalStimName} Price: ${config.SuperPropitalStimPrice} ₽. Desc: "${SuperPropitalStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region SJ69 Stim
@@ -116,7 +116,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, SJ69StimId, SJ69StimTraderPrice, config.TraderSellStock, config.SJ69StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, SJ69StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, SJ69StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ69StimTraderLoyalty} Name: ${SJ69StimName} Price: ${config.SJ69StimPrice} ₽. Desc: "${SJ69StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ69StimTraderLoyalty} Name: ${SJ69StimName} Price: ${config.SJ69StimPrice} ₽. Desc: "${SJ69StimDescription}"`, LogTextColor.WHITE);
         // #endregion 
         
         // #region GSPOT Stim
@@ -157,7 +157,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, GSPOTStimId, GSPOTStimTraderPrice, config.TraderSellStock, config.GSPOTStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, GSPOTStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, GSPOTStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.GSPOTStimTraderLoyalty} Name: ${GSPOTStimName} Price: ${config.GSPOTStimPrice} ₽. Desc: "${GSPOTStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.GSPOTStimTraderLoyalty} Name: ${GSPOTStimName} Price: ${config.GSPOTStimPrice} ₽. Desc: "${GSPOTStimDescription}"`, LogTextColor.WHITE);
         // #endregion
         
         // #region F.A.P(S) Stim
@@ -190,7 +190,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, FAPSStimId, FAPSStimTraderPrice, config.TraderSellStock, config.FAPSStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, FAPSStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, FAPSStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPSStimTraderLoyalty} Name: ${FAPSStimName} Price: ${config.FAPSStimPrice} ₽. Desc: "${FAPSStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPSStimTraderLoyalty} Name: ${FAPSStimName} Price: ${config.FAPSStimPrice} ₽. Desc: "${FAPSStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region F.A.P(L) Stim
@@ -223,7 +223,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, FAPLStimId, FAPLStimTraderPrice, config.TraderSellStock, config.FAPLStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, FAPLStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, FAPLStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPLStimTraderLoyalty} Name: ${FAPLStimName} Price: ${config.FAPLStimPrice} ₽. Desc: "${FAPLStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPLStimTraderLoyalty} Name: ${FAPLStimName} Price: ${config.FAPLStimPrice} ₽. Desc: "${FAPLStimDescription}"`, LogTextColor.WHITE);
         // #endregion
         
         // #region S.L.I.T Stim
@@ -262,7 +262,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, slitStimId, slitStimTraderPrice, config.TraderSellStock, config.slitStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, slitStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, slitStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.slitStimTraderLoyalty} Name: ${slitStimName} Price: ${config.slitStimPrice} ₽. Desc: "${slitStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.slitStimTraderLoyalty} Name: ${slitStimName} Price: ${config.slitStimPrice} ₽. Desc: "${slitStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region RnD-HTD Tabs.
@@ -295,7 +295,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, RnDHTDStimId, RnDHTDStimTraderPrice, config.TraderSellStock, config.RnDHTDStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, RnDHTDStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, RnDHTDStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDHTDStimTraderLoyalty} Name: ${RnDHTDStimName} Price: ${config.RnDHTDStimPrice} ₽. Desc: "${RnDHTDStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDHTDStimTraderLoyalty} Name: ${RnDHTDStimName} Price: ${config.RnDHTDStimPrice} ₽. Desc: "${RnDHTDStimDescription}"`, LogTextColor.WHITE);
         // #endregion
         
         // #region RnD-CE Tabs.
@@ -328,7 +328,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, RnDCEStimId, RnDCEStimTraderPrice, config.TraderSellStock, config.RnDCEStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, RnDCEStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, RnDCEStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDCEStimTraderLoyalty} Name: ${RnDCEStimName} Price: ${config.RnDCEStimPrice} ₽. Desc: "${RnDCEStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDCEStimTraderLoyalty} Name: ${RnDCEStimName} Price: ${config.RnDCEStimPrice} ₽. Desc: "${RnDCEStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region SJ420 Stim
@@ -361,8 +361,8 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, SJ420StimId, SJ420StimTraderPrice, config.TraderSellStock, config.SJ420StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, SJ420StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, SJ420StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ420StimTraderLoyalty} Name: ${SJ420StimName} Price: ${config.SJ420StimPrice} ₽. Desc: "${SJ420StimDescription}"`, LogTextColor.WHITE);
-        // #endregion 
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ420StimTraderLoyalty} Name: ${SJ420StimName} Price: ${config.SJ420StimPrice} ₽. Desc: "${SJ420StimDescription}"`, LogTextColor.WHITE);
+        // #endregion
 
         // #region MILF30 Stim
         const MILF30Stim = require("../db/buffs/Sluts_MILF30.json");
@@ -394,7 +394,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, MILF30StimId, MILF30StimTraderPrice, config.TraderSellStock, config.MILF30StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, MILF30StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, MILF30StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF30StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF30StimPrice} ₽. Desc: "${MILF30StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF30StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF30StimPrice} ₽. Desc: "${MILF30StimDescription}"`, LogTextColor.WHITE);
         // #endregion 
 
         // #region MILF45 Stim
@@ -427,7 +427,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, MILF45StimId, MILF45StimTraderPrice, config.TraderSellStock, config.MILF45StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, MILF45StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, MILF45StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF45StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF45StimPrice} ₽. Desc: "${MILF45StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF45StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF45StimPrice} ₽. Desc: "${MILF45StimDescription}"`, LogTextColor.WHITE);
         // #endregion 
 
         // #region DICS Stim
@@ -460,7 +460,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, DICSStimId, DICSStimTraderPrice, config.TraderSellStock, config.DICSStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, DICSStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, DICSStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.DICSStimTraderLoyalty} Name: ${DICSStimName} Price: ${config.DICSStimPrice} ₽. Desc: "${DICSStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.DICSStimTraderLoyalty} Name: ${DICSStimName} Price: ${config.DICSStimPrice} ₽. Desc: "${DICSStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region KL17 Stim
@@ -493,7 +493,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, KL17StimId, KL17StimTraderPrice, config.TraderSellStock, config.KL17StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, KL17StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, KL17StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.KL17StimTraderLoyalty} Name: ${KL17StimName} Price: ${config.KL17StimPrice} ₽. Desc: "${KL17StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.KL17StimTraderLoyalty} Name: ${KL17StimName} Price: ${config.KL17StimPrice} ₽. Desc: "${KL17StimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region BJ Stim
@@ -543,8 +543,10 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, BJStimId, BJStimTraderPrice, config.TraderSellStock, config.BJStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, BJStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, BJStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.BJStimTraderLoyalty} Name: ${BJStimName} Price: ${config.BJStimPrice} ₽. Desc: "${BJStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.BJStimTraderLoyalty} Name: ${BJStimName} Price: ${config.BJStimPrice} ₽. Desc: "${BJStimDescription}"`, LogTextColor.WHITE);
         // #endregion
+
+        logger.log(`[${this.pkg.author}-${this.pkg.name} v${this.pkg.version}] All done. Enjoy!`, LogTextColor.GREEN);
     }
 
     // Create a method to add a stim to the trader

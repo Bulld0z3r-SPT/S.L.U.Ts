@@ -51,7 +51,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const SuperPropitalStimId = "Sluts_SuperPropital",
             SuperPropitalStimCategory = "5b47574386f77428ca22b33a",
-            SuperPropitalStimFleaPrice = Math.ceil(config.SuperPropitalStimPrice * 1.05),
+            SuperPropitalStimFleaPrice = Math.ceil(config.SuperPropitalStimPrice * config.FleamarketPriceMultiplier),
             SuperPropitalStimName = "Stimulant Injector S.L.U.Ts-SuperPropital",
             SuperPropitalStimShortName = "SuperPropital",
             SuperPropitalStimDescription = "Manufactured by the S.L.U.Ts company. \"SuperPropital\" aka \"Propital 2.0\" is an upgraded version of the combat revitalization stimulant injector that restores health and stamina, stops bleeding (which didn't work in the original) and shortly stops pain. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -83,7 +83,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, SuperPropitalStimId, SuperPropitalStimTraderPrice, config.TraderSellStock, config.SuperPropitalStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, SuperPropitalStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, SuperPropitalStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SuperPropitalStimTraderLoyalty} Name: ${SuperPropitalStimName} Price: ${config.SuperPropitalStimPrice} ₽. Desc: "${SuperPropitalStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SuperPropitalStimTraderLoyalty} Name: ${SuperPropitalStimName} Price: ${config.SuperPropitalStimPrice} ₽. Desc: "${SuperPropitalStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region SJ69 Stim
@@ -91,7 +91,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const SJ69StimId = "Sluts_SJ69",
             SJ69StimCategory = "5b47574386f77428ca22b33a",
-            SJ69StimFleaPrice = Math.ceil(config.SJ69StimPrice * 1.05),
+            SJ69StimFleaPrice = Math.ceil(config.SJ69StimPrice * config.FleamarketPriceMultiplier),
             SJ69StimName = "Stimulant Injector S.L.U.Ts-SJ69",
             SJ69StimShortName = "SJ69",
             SJ69StimDescription = "SJ69 is a TOP SECRET combat stimulant. It is used to increase the body abilities before combat. Stimulant is allowed to use only by the secret special forces units and is barely legal. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies\n\nNote from S.L.U.Ts employee PDA:\n\"Russia was banned from international sports in 2015 for running a state-sponsored doping program. The report found that 1,400 test results were destroyed and recommended lifetime bans for five long-distance runners.\" - probably smuggled our stimulant into the olympics",
@@ -116,7 +116,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, SJ69StimId, SJ69StimTraderPrice, config.TraderSellStock, config.SJ69StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, SJ69StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, SJ69StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ69StimTraderLoyalty} Name: ${SJ69StimName} Price: ${config.SJ69StimPrice} ₽. Desc: "${SJ69StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ69StimTraderLoyalty} Name: ${SJ69StimName} Price: ${config.SJ69StimPrice} ₽. Desc: "${SJ69StimDescription}"`, LogTextColor.WHITE);
         // #endregion 
         
         // #region GSPOT Stim
@@ -124,7 +124,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const GSPOTStimId = "Sluts_GSPOT",
             GSPOTStimCategory = "5b47574386f77428ca22b33a",
-            GSPOTStimFleaPrice = Math.ceil(config.GSPOTStimPrice * 1.05),
+            GSPOTStimFleaPrice = Math.ceil(config.GSPOTStimPrice * config.FleamarketPriceMultiplier),
             GSPOTStimName = "Stimulant Injector S.L.U.Ts-G.S.P.O.T",
             GSPOTStimShortName = "G.S.P.O.T",
             GSPOTStimDescription = "Graravity Strenght and Power Oriented Trigger stimulant is a product of experimentation with the legendary M.U.L.E stimulant with an addition of viagra ingredients. commonly used by the military workers to overcome the pain of lifting heavy equipment without an ExoSkeleton. Testimonials say \"It's almost like weaing an ExoSkeleton, but much cheaper.\" \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -157,7 +157,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, GSPOTStimId, GSPOTStimTraderPrice, config.TraderSellStock, config.GSPOTStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, GSPOTStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, GSPOTStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.GSPOTStimTraderLoyalty} Name: ${GSPOTStimName} Price: ${config.GSPOTStimPrice} ₽. Desc: "${GSPOTStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.GSPOTStimTraderLoyalty} Name: ${GSPOTStimName} Price: ${config.GSPOTStimPrice} ₽. Desc: "${GSPOTStimDescription}"`, LogTextColor.WHITE);
         // #endregion
         
         // #region F.A.P(S) Stim
@@ -165,7 +165,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const FAPSStimId = "Sluts_FAP",
             FAPSStimCategory = "5b47574386f77428ca22b33a",
-            FAPSStimFleaPrice = Math.ceil(config.FAPSStimPrice * 1.05),
+            FAPSStimFleaPrice = Math.ceil(config.FAPSStimPrice * config.FleamarketPriceMultiplier),
             FAPSStimName = "Stimulant Injector S.L.U.Ts-F.A.P(S)",
             FAPSStimShortName = "F.A.P(S)",
             FAPSStimDescription = "Fierce Adrenaline Power (Short) - This injector delivers a large dose of epinephrine, which narrows the blood vessels to increase blood pressure and opens the airways to enable normal breathing. but is also used to enhance the physiological response associated with the preparation of all muscles to increased activity. Temporarily boosts strength, endurance, attention and perception. basically feel like a super human. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -190,7 +190,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, FAPSStimId, FAPSStimTraderPrice, config.TraderSellStock, config.FAPSStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, FAPSStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, FAPSStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPSStimTraderLoyalty} Name: ${FAPSStimName} Price: ${config.FAPSStimPrice} ₽. Desc: "${FAPSStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPSStimTraderLoyalty} Name: ${FAPSStimName} Price: ${config.FAPSStimPrice} ₽. Desc: "${FAPSStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region F.A.P(L) Stim
@@ -198,7 +198,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const FAPLStimId = "Sluts_FAPL",
             FAPLStimCategory = "5b47574386f77428ca22b33a",
-            FAPLStimFleaPrice = Math.ceil(config.FAPLStimPrice * 1.05),
+            FAPLStimFleaPrice = Math.ceil(config.FAPLStimPrice * config.FleamarketPriceMultiplier),
             FAPLStimName = "Stimulant Injector S.L.U.Ts-F.A.P(L)",
             FAPLStimShortName = "F.A.P(L)",
             FAPLStimDescription = "Fierce Adrenaline Power (Long) - This injector delivers a large dose of epinephrine, which narrows the blood vessels to increase blood pressure and opens the airways to enable normal breathing. but is also used to enhance the physiological response associated with the preparation of all muscles to increased activity. Temporarily boosts strength, endurance, attention and perception. basically feel like a super human. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -223,7 +223,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, FAPLStimId, FAPLStimTraderPrice, config.TraderSellStock, config.FAPLStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, FAPLStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, FAPLStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPLStimTraderLoyalty} Name: ${FAPLStimName} Price: ${config.FAPLStimPrice} ₽. Desc: "${FAPLStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.FAPLStimTraderLoyalty} Name: ${FAPLStimName} Price: ${config.FAPLStimPrice} ₽. Desc: "${FAPLStimDescription}"`, LogTextColor.WHITE);
         // #endregion
         
         // #region S.L.I.T Stim
@@ -231,7 +231,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const slitStimId = "Sluts_SLIT",
             slitStimCategory = "5b47574386f77428ca22b33a",
-            slitStimFleaPrice = Math.ceil(config.slitStimPrice * 1.05),
+            slitStimFleaPrice = Math.ceil(config.slitStimPrice * config.FleamarketPriceMultiplier),
             slitStimName = "Stimulant Injector S.L.U.Ts-S.L.I.T",
             slitStimShortName = "S.L.I.T",
             slitStimDescription = "Skin & Limbs Injury Treatment stim is part of our new products line, allowing for a quick and easy treatment of life treathening injuries. basically a super glue for your skin and bones. \nSIDE EFFECTS: wound can become itchy after use. DO NOT SCRATCH the wound! but only gently massage the hole. \nthis product was originally designed for use by the military on the frontlines. but, as more and more Hospital Emergency Rooms found it very useful. it helped bring its prices down and make it highly available to the wide public. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -262,7 +262,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, slitStimId, slitStimTraderPrice, config.TraderSellStock, config.slitStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, slitStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, slitStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.slitStimTraderLoyalty} Name: ${slitStimName} Price: ${config.slitStimPrice} ₽. Desc: "${slitStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.slitStimTraderLoyalty} Name: ${slitStimName} Price: ${config.slitStimPrice} ₽. Desc: "${slitStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region RnD-HTD Tabs.
@@ -270,7 +270,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const RnDHTDStimId = "Sluts_RnD-HTD",
             RnDHTDStimCategory = "5b47574386f77428ca22b337",
-            RnDHTDStimFleaPrice = Math.ceil(config.RnDHTDStimPrice * 1.05),
+            RnDHTDStimFleaPrice = Math.ceil(config.RnDHTDStimPrice * config.FleamarketPriceMultiplier),
             RnDHTDStimName = "S.L.U.Ts-RnD-HTD Tablets",
             RnDHTDStimShortName = "RnD-H.T.D",
             RnDHTDStimDescription = "Hands Tremor Disorder tablets. NOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -295,7 +295,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, RnDHTDStimId, RnDHTDStimTraderPrice, config.TraderSellStock, config.RnDHTDStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, RnDHTDStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, RnDHTDStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDHTDStimTraderLoyalty} Name: ${RnDHTDStimName} Price: ${config.RnDHTDStimPrice} ₽. Desc: "${RnDHTDStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDHTDStimTraderLoyalty} Name: ${RnDHTDStimName} Price: ${config.RnDHTDStimPrice} ₽. Desc: "${RnDHTDStimDescription}"`, LogTextColor.WHITE);
         // #endregion
         
         // #region RnD-CE Tabs.
@@ -303,7 +303,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const RnDCEStimId = "Sluts_RnD-CE",
             RnDCEStimCategory = "5b47574386f77428ca22b337",
-            RnDCEStimFleaPrice = Math.ceil(config.RnDCEStimPrice * 1.05),
+            RnDCEStimFleaPrice = Math.ceil(config.RnDCEStimPrice * config.FleamarketPriceMultiplier),
             RnDCEStimName = "S.L.U.Ts-RnD-CE Tablets",
             RnDCEStimShortName = "RnD-CE",
             RnDCEStimDescription = "Contusion Effect tablets. NOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company. ",
@@ -328,7 +328,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, RnDCEStimId, RnDCEStimTraderPrice, config.TraderSellStock, config.RnDCEStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, RnDCEStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, RnDCEStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDCEStimTraderLoyalty} Name: ${RnDCEStimName} Price: ${config.RnDCEStimPrice} ₽. Desc: "${RnDCEStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.RnDCEStimTraderLoyalty} Name: ${RnDCEStimName} Price: ${config.RnDCEStimPrice} ₽. Desc: "${RnDCEStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region SJ420 Stim
@@ -336,7 +336,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const SJ420StimId = "Sluts_SJ420",
             SJ420StimCategory = "5b47574386f77428ca22b33a",
-            SJ420StimFleaPrice = Math.ceil(config.SJ420StimPrice * 1.05),
+            SJ420StimFleaPrice = Math.ceil(config.SJ420StimPrice * config.FleamarketPriceMultiplier),
             SJ420StimName = "Stimulant Injector S.L.U.Ts-SJ420",
             SJ420StimShortName = "SJ420",
             SJ420StimDescription = "SJ420 also known as NERD Stim. This stim inject about a 100 thousand nano robots into your blood. which then rush towards your brain and cling to it. sharing their db of items with it. making you super smart, and able to understand what you see just by the glimpse of it. unfortunately, this effect has limited time and die off as soon the bots loose their battery power. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -361,15 +361,15 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, SJ420StimId, SJ420StimTraderPrice, config.TraderSellStock, config.SJ420StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, SJ420StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, SJ420StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ420StimTraderLoyalty} Name: ${SJ420StimName} Price: ${config.SJ420StimPrice} ₽. Desc: "${SJ420StimDescription}"`, LogTextColor.WHITE);
-        // #endregion 
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.SJ420StimTraderLoyalty} Name: ${SJ420StimName} Price: ${config.SJ420StimPrice} ₽. Desc: "${SJ420StimDescription}"`, LogTextColor.WHITE);
+        // #endregion
 
         // #region MILF30 Stim
         const MILF30Stim = require("../db/buffs/Sluts_MILF30.json");
 
         const MILF30StimId = "Sluts_MILF30",
             MILF30StimCategory = "5b47574386f77428ca22b33a",
-            MILF30StimFleaPrice = Math.ceil(config.MILF30StimPrice * 1.05),
+            MILF30StimFleaPrice = Math.ceil(config.MILF30StimPrice * config.FleamarketPriceMultiplier),
             MILF30StimName = "Stimulant Injector S.L.U.Ts-RnD-M.I.L-f30",
             MILF30StimShortName = "M.I.L-f30",
             MILF30StimDescription = "RnD-M.I.L-f30 - Muscles Increased Limits for 30 minutes. \nNOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -394,7 +394,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, MILF30StimId, MILF30StimTraderPrice, config.TraderSellStock, config.MILF30StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, MILF30StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, MILF30StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF30StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF30StimPrice} ₽. Desc: "${MILF30StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF30StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF30StimPrice} ₽. Desc: "${MILF30StimDescription}"`, LogTextColor.WHITE);
         // #endregion 
 
         // #region MILF45 Stim
@@ -402,7 +402,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const MILF45StimId = "Sluts_MILF45",
             MILF45StimCategory = "5b47574386f77428ca22b33a",
-            MILF45StimFleaPrice = Math.ceil(config.MILF45StimPrice * 1.05),
+            MILF45StimFleaPrice = Math.ceil(config.MILF45StimPrice * config.FleamarketPriceMultiplier),
             MILF45StimName = "Stimulant Injector S.L.U.Ts-RnD-M.I.L-f45",
             MILF45StimShortName = "M.I.L-f45",
             MILF45StimDescription = "RnD-M.I.L-f45 - Muscles Increased Limits for 45 minutes. \nNOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -427,7 +427,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, MILF45StimId, MILF45StimTraderPrice, config.TraderSellStock, config.MILF45StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, MILF45StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, MILF45StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF45StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF45StimPrice} ₽. Desc: "${MILF45StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.MILF45StimTraderLoyalty} Name: ${MILF30StimName} Price: ${config.MILF45StimPrice} ₽. Desc: "${MILF45StimDescription}"`, LogTextColor.WHITE);
         // #endregion 
 
         // #region DICS Stim
@@ -435,7 +435,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const DICSStimId = "Sluts_DICS",
             DICSStimCategory = "5b47574386f77428ca22b33a",
-            DICSStimFleaPrice = Math.ceil(config.DICSStimPrice * 1.05),
+            DICSStimFleaPrice = Math.ceil(config.DICSStimPrice * config.FleamarketPriceMultiplier),
             DICSStimName = "Stimulant Injector S.L.U.Ts-RnD-DI:CS",
             DICSStimShortName = "DI:CS",
             DICSStimDescription = "RnD - Dermal Interface: Ceramic Skin \nNOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -460,7 +460,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, DICSStimId, DICSStimTraderPrice, config.TraderSellStock, config.DICSStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, DICSStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, DICSStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.DICSStimTraderLoyalty} Name: ${DICSStimName} Price: ${config.DICSStimPrice} ₽. Desc: "${DICSStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.DICSStimTraderLoyalty} Name: ${DICSStimName} Price: ${config.DICSStimPrice} ₽. Desc: "${DICSStimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region KL17 Stim
@@ -468,7 +468,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const KL17StimId = "Sluts_KL17",
             KL17StimCategory = "5b47574386f77428ca22b33a",
-            KL17StimFleaPrice = Math.ceil(config.KL17StimPrice * 1.05),
+            KL17StimFleaPrice = Math.ceil(config.KL17StimPrice * config.FleamarketPriceMultiplier),
             KL17StimName = "Stimulant Injector S.L.U.Ts-KL17",
             KL17StimShortName = "KL17",
             KL17StimDescription = "KL17 - temporarily replenishes your hydration and energy levels. ingredients: Kelp, Lemonade and secret ingredient 17. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -493,7 +493,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, KL17StimId, KL17StimTraderPrice, config.TraderSellStock, config.KL17StimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, KL17StimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, KL17StimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.KL17StimTraderLoyalty} Name: ${KL17StimName} Price: ${config.KL17StimPrice} ₽. Desc: "${KL17StimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.KL17StimTraderLoyalty} Name: ${KL17StimName} Price: ${config.KL17StimPrice} ₽. Desc: "${KL17StimDescription}"`, LogTextColor.WHITE);
         // #endregion
 
         // #region BJ Stim
@@ -501,8 +501,8 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const BJStimId = "Sluts_BJ",
             BJStimCategory = "5b47574386f77428ca22b33a",
-            BJStimFleaPrice = Math.ceil(config.BJStimPrice * 1.05),
-            BJStimName = "Stimulant Injector S.L.U.Ts-BJ",
+            BJStimFleaPrice = Math.ceil(config.BJStimPrice * config.FleamarketPriceMultiplier),
+            BJStimName = "Stimulant Injector S.L.U.Ts-B.J.",
             BJStimShortName = "B.J.",
             BJStimDescription = "Blood Jell-o-tinizer, simply stops all kinds of bleedings. can cause a severe headache, as it thickens the blood, lowering the amout of oxygen delivered to your brain. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
             BJStimTraderPrice = config.BJStimPrice;
@@ -543,8 +543,10 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         Sluts.addStimToTrader(trader, BJStimId, BJStimTraderPrice, config.TraderSellStock, config.BJStimTraderLoyalty);
         Sluts.addItemToInjectorCase(InjectorCase, BJStimId);
         Sluts.addItemToSpecialSlots(SpecialSlots, BJStimId);
-        logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.BJStimTraderLoyalty} Name: ${BJStimName} Price: ${config.BJStimPrice} ₽. Desc: "${BJStimDescription}"`, LogTextColor.WHITE);
+        if (config.debug) logger.log(`[${this.pkg.name} v${this.pkg.version}] ${trader.base.nickname} lvl-${config.BJStimTraderLoyalty} Name: ${BJStimName} Price: ${config.BJStimPrice} ₽. Desc: "${BJStimDescription}"`, LogTextColor.WHITE);
         // #endregion
+
+        logger.log(`[${this.pkg.author}-${this.pkg.name} v${this.pkg.version}] All done. Enjoy!`, LogTextColor.GREEN);
     }
 
     // Create a method to add a stim to the trader

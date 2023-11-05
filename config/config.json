@@ -45,5 +45,7 @@
     "KL17StimTraderLoyalty": 1,
 
     "BJStimPrice": 19969,
-    "BJStimTraderLoyalty": 1
+    "BJStimTraderLoyalty": 1,
+
+    "debug": false
 }
