@@ -1,4 +1,4 @@
-[![MOD-version](https://img.shields.io/badge/MOD%20version-1.2.0-green)](https://github.com/Bulld0z3r-SPT/S.L.U.Ts/releases) [![SPT](https://img.shields.io/badge/SPT%20version-3.7.1-blue)](https://hub.sp-tarkov.com/files/file/16-spt-aki/#versions) ![dependencies](https://img.shields.io/badge/dependencies-none-green) [![Feature Requests](https://img.shields.io/github/issues/Bulld0z3r-SPT/S.L.U.Ts/feature-request.svg)](https://github.com/Bulld0z3r-SPT/S.L.U.Ts/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc) [![Bugs](https://img.shields.io/github/issues/Bulld0z3r-SPT/S.L.U.Ts/bug.svg)](https://github.com/Bulld0z3r-SPT/S.L.U.Ts/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+[![MOD-version](https://img.shields.io/badge/MOD%20version-1.3.0-green)](https://github.com/Bulld0z3r-SPT/S.L.U.Ts/releases) [![SPT](https://img.shields.io/badge/SPT%20version-3.7.1-blue)](https://hub.sp-tarkov.com/files/file/16-spt-aki/#versions) ![dependencies](https://img.shields.io/badge/dependencies-none-green) [![Feature Requests](https://img.shields.io/github/issues/Bulld0z3r-SPT/S.L.U.Ts/feature-request.svg)](https://github.com/Bulld0z3r-SPT/S.L.U.Ts/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc) [![Bugs](https://img.shields.io/github/issues/Bulld0z3r-SPT/S.L.U.Ts/bug.svg)](https://github.com/Bulld0z3r-SPT/S.L.U.Ts/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
 
 <p align="center">
     <img src="/content/SLUTs_logo.png" height="500">
@@ -9,7 +9,7 @@
 The company also provides some of its products to Hospitals and Medical Personnel's
 
 <p align="center">
-    <img src="content/sluts_all.png" height="146">
+    <img src="content/sluts_all_1.3.0.png" />
 </p>
 
 # Installation
