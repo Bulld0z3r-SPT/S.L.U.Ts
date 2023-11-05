@@ -3,6 +3,7 @@
     "TabsUseCount": 5,
     "AllowInSpecialSlots": true,
     "TraderSellStock": 10,
+    "FleamarketPriceMultiplier": 1.15,
 
     "SuperPropitalStimPrice": 136969,
     "SuperPropitalStimTraderLoyalty": 2,

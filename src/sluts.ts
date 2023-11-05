@@ -51,7 +51,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const SuperPropitalStimId = "Sluts_SuperPropital",
             SuperPropitalStimCategory = "5b47574386f77428ca22b33a",
-            SuperPropitalStimFleaPrice = Math.ceil(config.SuperPropitalStimPrice * 1.05),
+            SuperPropitalStimFleaPrice = Math.ceil(config.SuperPropitalStimPrice * config.FleamarketPriceMultiplier),
             SuperPropitalStimName = "Stimulant Injector S.L.U.Ts-SuperPropital",
             SuperPropitalStimShortName = "SuperPropital",
             SuperPropitalStimDescription = "Manufactured by the S.L.U.Ts company. \"SuperPropital\" aka \"Propital 2.0\" is an upgraded version of the combat revitalization stimulant injector that restores health and stamina, stops bleeding (which didn't work in the original) and shortly stops pain. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -91,7 +91,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const SJ69StimId = "Sluts_SJ69",
             SJ69StimCategory = "5b47574386f77428ca22b33a",
-            SJ69StimFleaPrice = Math.ceil(config.SJ69StimPrice * 1.05),
+            SJ69StimFleaPrice = Math.ceil(config.SJ69StimPrice * config.FleamarketPriceMultiplier),
             SJ69StimName = "Stimulant Injector S.L.U.Ts-SJ69",
             SJ69StimShortName = "SJ69",
             SJ69StimDescription = "SJ69 is a TOP SECRET combat stimulant. It is used to increase the body abilities before combat. Stimulant is allowed to use only by the secret special forces units and is barely legal. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies\n\nNote from S.L.U.Ts employee PDA:\n\"Russia was banned from international sports in 2015 for running a state-sponsored doping program. The report found that 1,400 test results were destroyed and recommended lifetime bans for five long-distance runners.\" - probably smuggled our stimulant into the olympics",
@@ -124,7 +124,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const GSPOTStimId = "Sluts_GSPOT",
             GSPOTStimCategory = "5b47574386f77428ca22b33a",
-            GSPOTStimFleaPrice = Math.ceil(config.GSPOTStimPrice * 1.05),
+            GSPOTStimFleaPrice = Math.ceil(config.GSPOTStimPrice * config.FleamarketPriceMultiplier),
             GSPOTStimName = "Stimulant Injector S.L.U.Ts-G.S.P.O.T",
             GSPOTStimShortName = "G.S.P.O.T",
             GSPOTStimDescription = "Graravity Strenght and Power Oriented Trigger stimulant is a product of experimentation with the legendary M.U.L.E stimulant with an addition of viagra ingredients. commonly used by the military workers to overcome the pain of lifting heavy equipment without an ExoSkeleton. Testimonials say \"It's almost like weaing an ExoSkeleton, but much cheaper.\" \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -165,7 +165,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const FAPSStimId = "Sluts_FAP",
             FAPSStimCategory = "5b47574386f77428ca22b33a",
-            FAPSStimFleaPrice = Math.ceil(config.FAPSStimPrice * 1.05),
+            FAPSStimFleaPrice = Math.ceil(config.FAPSStimPrice * config.FleamarketPriceMultiplier),
             FAPSStimName = "Stimulant Injector S.L.U.Ts-F.A.P(S)",
             FAPSStimShortName = "F.A.P(S)",
             FAPSStimDescription = "Fierce Adrenaline Power (Short) - This injector delivers a large dose of epinephrine, which narrows the blood vessels to increase blood pressure and opens the airways to enable normal breathing. but is also used to enhance the physiological response associated with the preparation of all muscles to increased activity. Temporarily boosts strength, endurance, attention and perception. basically feel like a super human. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -198,7 +198,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const FAPLStimId = "Sluts_FAPL",
             FAPLStimCategory = "5b47574386f77428ca22b33a",
-            FAPLStimFleaPrice = Math.ceil(config.FAPLStimPrice * 1.05),
+            FAPLStimFleaPrice = Math.ceil(config.FAPLStimPrice * config.FleamarketPriceMultiplier),
             FAPLStimName = "Stimulant Injector S.L.U.Ts-F.A.P(L)",
             FAPLStimShortName = "F.A.P(L)",
             FAPLStimDescription = "Fierce Adrenaline Power (Long) - This injector delivers a large dose of epinephrine, which narrows the blood vessels to increase blood pressure and opens the airways to enable normal breathing. but is also used to enhance the physiological response associated with the preparation of all muscles to increased activity. Temporarily boosts strength, endurance, attention and perception. basically feel like a super human. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -231,7 +231,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const slitStimId = "Sluts_SLIT",
             slitStimCategory = "5b47574386f77428ca22b33a",
-            slitStimFleaPrice = Math.ceil(config.slitStimPrice * 1.05),
+            slitStimFleaPrice = Math.ceil(config.slitStimPrice * config.FleamarketPriceMultiplier),
             slitStimName = "Stimulant Injector S.L.U.Ts-S.L.I.T",
             slitStimShortName = "S.L.I.T",
             slitStimDescription = "Skin & Limbs Injury Treatment stim is part of our new products line, allowing for a quick and easy treatment of life treathening injuries. basically a super glue for your skin and bones. \nSIDE EFFECTS: wound can become itchy after use. DO NOT SCRATCH the wound! but only gently massage the hole. \nthis product was originally designed for use by the military on the frontlines. but, as more and more Hospital Emergency Rooms found it very useful. it helped bring its prices down and make it highly available to the wide public. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -270,7 +270,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const RnDHTDStimId = "Sluts_RnD-HTD",
             RnDHTDStimCategory = "5b47574386f77428ca22b337",
-            RnDHTDStimFleaPrice = Math.ceil(config.RnDHTDStimPrice * 1.05),
+            RnDHTDStimFleaPrice = Math.ceil(config.RnDHTDStimPrice * config.FleamarketPriceMultiplier),
             RnDHTDStimName = "S.L.U.Ts-RnD-HTD Tablets",
             RnDHTDStimShortName = "RnD-H.T.D",
             RnDHTDStimDescription = "Hands Tremor Disorder tablets. NOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -303,7 +303,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const RnDCEStimId = "Sluts_RnD-CE",
             RnDCEStimCategory = "5b47574386f77428ca22b337",
-            RnDCEStimFleaPrice = Math.ceil(config.RnDCEStimPrice * 1.05),
+            RnDCEStimFleaPrice = Math.ceil(config.RnDCEStimPrice * config.FleamarketPriceMultiplier),
             RnDCEStimName = "S.L.U.Ts-RnD-CE Tablets",
             RnDCEStimShortName = "RnD-CE",
             RnDCEStimDescription = "Contusion Effect tablets. NOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company. ",
@@ -336,7 +336,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const SJ420StimId = "Sluts_SJ420",
             SJ420StimCategory = "5b47574386f77428ca22b33a",
-            SJ420StimFleaPrice = Math.ceil(config.SJ420StimPrice * 1.05),
+            SJ420StimFleaPrice = Math.ceil(config.SJ420StimPrice * config.FleamarketPriceMultiplier),
             SJ420StimName = "Stimulant Injector S.L.U.Ts-SJ420",
             SJ420StimShortName = "SJ420",
             SJ420StimDescription = "SJ420 also known as NERD Stim. This stim inject about a 100 thousand nano robots into your blood. which then rush towards your brain and cling to it. sharing their db of items with it. making you super smart, and able to understand what you see just by the glimpse of it. unfortunately, this effect has limited time and die off as soon the bots loose their battery power. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -369,7 +369,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const MILF30StimId = "Sluts_MILF30",
             MILF30StimCategory = "5b47574386f77428ca22b33a",
-            MILF30StimFleaPrice = Math.ceil(config.MILF30StimPrice * 1.05),
+            MILF30StimFleaPrice = Math.ceil(config.MILF30StimPrice * config.FleamarketPriceMultiplier),
             MILF30StimName = "Stimulant Injector S.L.U.Ts-RnD-M.I.L-f30",
             MILF30StimShortName = "M.I.L-f30",
             MILF30StimDescription = "RnD-M.I.L-f30 - Muscles Increased Limits for 30 minutes. \nNOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -402,7 +402,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const MILF45StimId = "Sluts_MILF45",
             MILF45StimCategory = "5b47574386f77428ca22b33a",
-            MILF45StimFleaPrice = Math.ceil(config.MILF45StimPrice * 1.05),
+            MILF45StimFleaPrice = Math.ceil(config.MILF45StimPrice * config.FleamarketPriceMultiplier),
             MILF45StimName = "Stimulant Injector S.L.U.Ts-RnD-M.I.L-f45",
             MILF45StimShortName = "M.I.L-f45",
             MILF45StimDescription = "RnD-M.I.L-f45 - Muscles Increased Limits for 45 minutes. \nNOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -435,7 +435,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const DICSStimId = "Sluts_DICS",
             DICSStimCategory = "5b47574386f77428ca22b33a",
-            DICSStimFleaPrice = Math.ceil(config.DICSStimPrice * 1.05),
+            DICSStimFleaPrice = Math.ceil(config.DICSStimPrice * config.FleamarketPriceMultiplier),
             DICSStimName = "Stimulant Injector S.L.U.Ts-RnD-DI:CS",
             DICSStimShortName = "DI:CS",
             DICSStimDescription = "RnD - Dermal Interface: Ceramic Skin \nNOT FOR SALE! INTERNAL USE ONLY! \nS.L.U.Ts Reasearh and Development department. \nManufactured by the S.L.U.Ts company.",
@@ -468,7 +468,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const KL17StimId = "Sluts_KL17",
             KL17StimCategory = "5b47574386f77428ca22b33a",
-            KL17StimFleaPrice = Math.ceil(config.KL17StimPrice * 1.05),
+            KL17StimFleaPrice = Math.ceil(config.KL17StimPrice * config.FleamarketPriceMultiplier),
             KL17StimName = "Stimulant Injector S.L.U.Ts-KL17",
             KL17StimShortName = "KL17",
             KL17StimDescription = "KL17 - temporarily replenishes your hydration and energy levels. ingredients: Kelp, Lemonade and secret ingredient 17. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
@@ -501,7 +501,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
 
         const BJStimId = "Sluts_BJ",
             BJStimCategory = "5b47574386f77428ca22b33a",
-            BJStimFleaPrice = Math.ceil(config.BJStimPrice * 1.05),
+            BJStimFleaPrice = Math.ceil(config.BJStimPrice * config.FleamarketPriceMultiplier),
             BJStimName = "Stimulant Injector S.L.U.Ts-B.J.",
             BJStimShortName = "B.J.",
             BJStimDescription = "Blood Jell-o-tinizer, simply stops all kinds of bleedings. can cause a severe headache, as it thickens the blood, lowering the amout of oxygen delivered to your brain. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
