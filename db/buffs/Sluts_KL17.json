@@ -1,0 +1,30 @@
+
+[
+  {
+    "BuffType": "EnergyRate",
+    "Chance": 1,
+    "Delay": 1,
+    "Duration": 600,
+    "Value": 1.5,
+    "AbsoluteValue": true,
+    "SkillName": ""
+  },
+  {
+    "BuffType": "HydrationRate",
+    "Chance": 1,
+    "Delay": 1,
+    "Duration": 600,
+    "Value": 1.5,
+    "AbsoluteValue": true,
+    "SkillName": ""
+  },
+  {
+      "BuffType": "HealthRate",
+      "Chance": 0.2,
+      "Delay": 240,
+      "Duration": 60,
+      "Value": -0.1,
+      "AbsoluteValue": true,
+      "SkillName": ""
+  }
+]

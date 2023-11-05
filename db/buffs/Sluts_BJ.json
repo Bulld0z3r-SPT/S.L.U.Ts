@@ -1,0 +1,21 @@
+
+[
+  {
+    "BuffType": "RemoveAllBloodLosses",
+    "Chance": 1,
+    "Delay": 0,
+    "Duration": 180,
+    "Value": 0,
+    "AbsoluteValue": true,
+    "SkillName": ""
+  },
+  {
+    "BuffType": "Contusion",
+    "Chance": 0.5,
+    "Delay": 180,
+    "Duration": 30,
+    "Value": 1,
+    "AbsoluteValue": false,
+    "SkillName": ""
+  }
+]

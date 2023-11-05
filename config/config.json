@@ -1,17 +1,48 @@
 {
     "StimUseCount": 3,
     "TabsUseCount": 5,
+    "AllowInSpecialSlots": true,
+    "TraderSellStock": 10,
 
     "SuperPropitalStimPrice": 136969,
+    "SuperPropitalStimTraderLoyalty": 2,
+
     "SJ69StimPrice": 129969,
+    "SJ69StimTraderLoyalty": 3,
+
     "GSPOTStimPrice": 169969,
+    "GSPOTStimTraderLoyalty": 3,
+
     "FAPSStimPrice": 69420,
+    "FAPSStimTraderLoyalty": 2,
+
     "FAPLStimPrice": 269420,
+    "FAPLStimTraderLoyalty": 3,
+
     "slitStimPrice": 42069,
+    "slitStimTraderLoyalty": 2,
+
     "RnDHTDStimPrice": 19999,
+    "RnDHTDStimTraderLoyalty": 1,
+
     "RnDCEStimPrice": 19999,
+    "RnDCEStimTraderLoyalty": 1,
+
     "SJ420StimPrice": 49999,
+    "SJ420StimTraderLoyalty": 2,
+
     "MILF30StimPrice": 999999,
+    "MILF30StimTraderLoyalty": 4,
+
     "MILF45StimPrice": 1499999,
-    "DICSStimPrice": 1499999
+    "MILF45StimTraderLoyalty": 4,
+
+    "DICSStimPrice": 1499999,
+    "DICSStimTraderLoyalty": 4,
+
+    "KL17StimPrice": 24069,
+    "KL17StimTraderLoyalty": 1,
+
+    "BJStimPrice": 19969,
+    "BJStimTraderLoyalty": 1
 }

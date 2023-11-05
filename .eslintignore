@@ -1,5 +1,6 @@
 # Exclude these folders from linting
-node_modules
+.github/
+node_modules/
 dist/
 types/
 content/
