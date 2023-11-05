@@ -15,7 +15,7 @@ The company also provides some of its products to Hospitals and Medical Personne
 # Installation
 - Extract the contents of the archive to your `<SPT FOLDER>\user\mods`
 - full path to mod should look like `<SPT FOLDER>\user\mods\<MOD Name>`
-- e.g. `D:\Games\SPT\user\mods\Bulld0z3r-S.L.U.Ts-1.2.0\package.json`
+- e.g. `D:\Games\SPT\user\mods\Bulld0z3r-S.L.U.Ts-1.3.0\package.json`
 
 # Configuration
 You can change mod configuration file, which is available at `<SPT FOLDER>\user\mods\Bulld0z3r-SLUTs-x.x.x\config\config.json` to suit your desired settings.
