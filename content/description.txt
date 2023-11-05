@@ -121,3 +121,22 @@ Stops light bleedings
 Stops heavy bleedings
 Removes Fracture
 Restores Lost Body part
+
+S.L.U.Ts-B.J. Injector
+HP Resource: 3
+Use Time: 2sec
+Removes Pain: Dur. 180sec
+Stops light bleedings: Dur. 180sec
+Stops heavy bleedings: Dur. 180sec
+Stops and Prevents Bleeding: Dur. 180sec
+Concussion: Chance 50% / Del. 180sec / Dur. 30sec (+100%)
+
+S.L.U.Ts-KL17 Injector
+HP Resource: 3
+Use Time: 2sec
+Removes Concussion: Dur. 240sec
+Removes Pain: Dur. 240sec
+Energy Recovery: Dur. 600sec (+1.5)
+Hydration Recovery: Dur. 600sec (+1.5)
+Health Regeneration: Chance 20% / Del. 240sec / Dur. 60sec (-0.1)
+
