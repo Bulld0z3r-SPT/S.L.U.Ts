@@ -502,7 +502,7 @@ class Sluts implements IPostAkiLoadMod, IPostDBLoadMod
         const BJStimId = "Sluts_BJ",
             BJStimCategory = "5b47574386f77428ca22b33a",
             BJStimFleaPrice = Math.ceil(config.BJStimPrice * 1.05),
-            BJStimName = "Stimulant Injector S.L.U.Ts-BJ",
+            BJStimName = "Stimulant Injector S.L.U.Ts-B.J.",
             BJStimShortName = "B.J.",
             BJStimDescription = "Blood Jell-o-tinizer, simply stops all kinds of bleedings. can cause a severe headache, as it thickens the blood, lowering the amout of oxygen delivered to your brain. \nsome individuals might experience minor side effects for a short period of time. this product contains drug elements which may be addictive to some individuals. \nS.L.U.Ts company aims at producing high quality Special Life Uplifting Technologies",
             BJStimTraderPrice = config.BJStimPrice;
